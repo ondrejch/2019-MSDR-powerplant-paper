@@ -1,6 +1,9 @@
-demandtime = [0, 3600, 7200, 10800, 14400];
+%demandtime = [0, 3600, 7200, 10800, 14400];
+%demanddata = [1, .75, .5, 1, 1];
 
-demanddata = [1, .75, .5, 1, 1];
+% test Visura
+demandtime = [0, 3600, 7200, 10800 14400 18000];
+demanddata = [1, 0.8, 0.5, 0.5, 0.5, 1];
 
 demand = timeseries(demanddata,demandtime);
 
